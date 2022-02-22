@@ -6,11 +6,12 @@ Fast front-end web app build tool with simple declarative config and seamless in
 
 # FORK
 
-This is a fork of the official brunch repo. This fork will have changes that are not present in the offical version. 
+This is a fork of the official brunch repo. This fork will have changes that are not present in the offical version.
 
 ## Changelist
 1. Revert back to teh 4.0.0 commit
 2. Modify the plugins.js to use common js dynamic imports for plugins. This allows both common js and es modules to be used in the build pipeline.
+3. Change package name to @firstfleet/brunch for internal npm package use
 
 ## Usage
 
