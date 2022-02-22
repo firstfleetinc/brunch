@@ -1,8 +1,16 @@
-# Brunch [![Weekly downloads](https://img.shields.io/npm/dw/brunch.svg)](https://www.npmjs.com/package/brunch) [![Yearly downloads](https://img.shields.io/npm/dy/brunch.svg)](https://www.npmjs.com/package/brunch)
+# Brunch 
 
 > Web applications made easy. Since 2011.
 
 Fast front-end web app build tool with simple declarative config and seamless incremental compilation for rapid development.
+
+# FORK
+
+This is a fork of the official brunch repo. This fork will have changes that are not present in the offical version. 
+
+## Changelist
+1. Revert back to teh 4.0.0 commit
+2. Modify the plugins.js to use common js dynamic imports for plugins. This allows both common js and es modules to be used in the build pipeline.
 
 ## Usage
 
