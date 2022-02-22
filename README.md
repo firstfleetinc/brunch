@@ -17,7 +17,7 @@ This is a fork of the official brunch repo. This fork will have changes that are
 
 Install Brunch with a simple node.js package manager command:
 
-    npm install -g brunch
+    npm install -g @firstfleet/brunch
 
 1. **Create** a new Brunch project: `brunch new [--skeleton url]`
     - skeleton specifies a skeleton from which your application will be initialized.
