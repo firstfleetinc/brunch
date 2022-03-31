@@ -1,4 +1,4 @@
-# Brunch 
+# Brunch
 
 > Web applications made easy. Since 2011.
 
@@ -12,6 +12,7 @@ This is a fork of the official brunch repo. This fork will have changes that are
 1. Revert back to the 4.0.0 commit
 2. Modify the plugins.js to use common js dynamic imports for plugins. This allows both common js and es modules to be used in the build pipeline.
 3. Change package name to @firstfleet/brunch for internal npm package use
+4. Added a new config value under config.npm.checkDependencies. This value controls whether brunch will try to update or install npm packages on watch and build. It defaults to true for backwards compatibility, but if set to false, brunch will not update or install npm packages. This adds support for things like monorepos, where your npm packages will be at the root of the workspace, and not at the project level.
 
 ## Usage
 
